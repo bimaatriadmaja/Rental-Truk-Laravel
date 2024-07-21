@@ -1,0 +1,45 @@
+#truk {
+  text-align: center;
+  color: rgb(154, 151, 151);
+  padding: 20px;
+}
+
+.background-container {
+  background-image: url('/img/logo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#truk h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.truk-list {
+  display: flex;
+  justify-content: center;
+}
+
+.truk-cover {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: black;
+}
+
+.truk-img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+  .truk-img {
+    width: 150px;
+    height: 225px;
+  }
+}

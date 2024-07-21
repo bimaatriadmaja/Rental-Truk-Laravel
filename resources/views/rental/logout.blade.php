@@ -1,0 +1,1 @@
+<li><a href="{{ route('logout') }}">Log Out</a></li>

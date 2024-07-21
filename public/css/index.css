@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('/img/logo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.success-message {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.create-link {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #463f3f;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000b3;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+}
+
+a.edit-button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+a.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+}

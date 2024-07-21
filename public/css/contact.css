@@ -1,0 +1,31 @@
+.background-container {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#about h2 {
+    color: white;
+}
+
+#about p {
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#about a {
+    color: white;
+    text-decoration: underline;
+}
